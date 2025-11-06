@@ -64,16 +64,16 @@ namespace Learning_C_Sharp
             //Console.WriteLine($"c /=b : {c}");
             //Console.WriteLine("============================");
 
-            //Console.WriteLine("\n============================");
-            //Console.WriteLine("Unary Operator");
-            //Console.WriteLine("============================");
+            Console.WriteLine("\n============================");
+            Console.WriteLine("Unary Operator");
+            Console.WriteLine("============================");
 
-            //int num = a;
-            //Console.WriteLine($"num++ = {num++}");
-            //Console.WriteLine($"++num = {++num}");
-            //Console.WriteLine($"num-- = {num--}");
-            //Console.WriteLine($"--num = {--num}");
-            //Console.WriteLine("============================");
+            int num = a;
+            Console.WriteLine($"num++ = {num++}");
+            Console.WriteLine($"++num = {++num}");
+            Console.WriteLine($"num-- = {num--}");
+            Console.WriteLine($"--num = {--num}");
+            Console.WriteLine("============================");
 
             //Console.WriteLine("\n============================");
             //Console.WriteLine("Bitwise Operator");
@@ -86,12 +86,12 @@ namespace Learning_C_Sharp
             //Console.WriteLine($"a >> b = {a >> 1}");
             //Console.WriteLine("============================");
 
-            Console.WriteLine("\n============================");
-            Console.WriteLine("Ternary Operator");
-            Console.WriteLine("============================");
+            //Console.WriteLine("\n============================");
+            //Console.WriteLine("Ternary Operator");
+            //Console.WriteLine("============================");
 
-            string result = (a < b) ? "a is grater than b" : "b is greather than a";
-            Console.WriteLine(result);
+            //string result = (a < b) ? "a is grater than b" : "b is greather than a";
+            //Console.WriteLine(result);
 
 
 

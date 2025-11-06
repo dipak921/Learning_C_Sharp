@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.operator_with_user_input</StartupObject>
+    <StartupObject>Learning_C_Sharp.conditional_statment</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="conditional_statment.cs" />
     <Compile Include="datatype.cs" />
     <Compile Include="operator_with_user_input.cs" />
     <Compile Include="Program.cs" />
