@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -142,44 +143,98 @@ namespace Learning_C_Sharp
             //        break;
             //}
 
-            Console.WriteLine("Enter your pizza:");
-            string pizza = Console.ReadLine();
+            //Console.WriteLine("Enter your pizza:");
+            //string pizza = Console.ReadLine();
 
 
-            switch (pizza)
+            //switch (pizza)
+            //{
+            //    case "Corn":
+            //        Console.WriteLine("Your order is corn pizza");
+            //        break;
+
+            //    case "Supreme":
+            //        Console.WriteLine("Your order is supreme pizza");
+            //        break;
+
+            //    case "Vegetable":
+            //        Console.WriteLine("Select Your Vegetable Choice");
+            //        string Vegetable = Console.ReadLine();
+
+            //        switch (Vegetable)
+            //        {
+            //            case "onion":
+            //                Console.WriteLine("You selected onion pizza");
+            //                break;
+            //            case "capcicum":
+            //                Console.WriteLine("You selected capcicum pizza");
+            //                break;
+            //            case "olives":
+            //                Console.WriteLine("You selected olives pizza");
+            //                break;
+            //            default:
+            //                Console.WriteLine("Invalid Choice");
+            //                break;
+            //        }
+            //        break;
+
+            //}
+
+
+            Console.WriteLine("Enter a Price");
+            int price = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter a Customer Type(Premium or Regular)");
+            string type = Console.ReadLine();
+
+            Console.WriteLine("Enter a PaymentMethod");
+            string payamentMethod = Console.ReadLine();
+
+            int discount = 0;
+
+
+            if (type == "premium")
             {
-                case "Corn":
-                    Console.WriteLine("Your order is corn pizza");
-                    break;
-
-                case "Supreme":
-                    Console.WriteLine("Your order is supreme pizza");
-                    break;
-
-                case "Vegetable":
-                    Console.WriteLine("Select Your Vegetable Choice");
-                    string Vegetable = Console.ReadLine();
-
-                    switch (Vegetable)
-                    {
-                        case "onion":
-                            Console.WriteLine("You selected onion pizza");
-                            break;
-                        case "capcicum":
-                            Console.WriteLine("You selected capcicum pizza");
-                            break;
-                        case "olives":
-                            Console.WriteLine("You selected olives pizza");
-                            break;
-                        default:
-                            Console.WriteLine("Invalid Choice");
-                            break;
-                    }
-                    break;
-
+                if (price >= 10000 && payamentMethod == "card")
+                {
+                    Console.WriteLine("I am providing a 20% discount");
+                    discount = price + price /100 * 20;
+                }
+                else if (price >= 10000 && payamentMethod == "cash")
+                {
+                    Console.WriteLine("I am providing a 15% discount");
+                    discount = price + price / 100 * 15;
+                }
+                else if (price <= 10000 && payamentMethod == "any")
+                {
+                    Console.WriteLine("I am providing a 10% discount");
+                    discount = price + price / 100 * 10;
+                }
+                else
+                {
+                    Console.WriteLine("Not eligible for discount");
+                }
+            }
+            else if (type == "regular")
+            {
+                if (price >= 5000 && payamentMethod == "card")
+                {
+                    Console.WriteLine("I am providing a 5% discount");
+                    discount = price + price / 100 * 5;
+                }
+                if (price >= 5000 && payamentMethod == "cash")
+                {
+                    Console.WriteLine("I am providing a 3% discount");
+                    discount = price + price / 100 * 3;
+                }
+                else
+                {
+                    Console.WriteLine("Not eligible for discount");
+                }
             }
 
 
+            Console.WriteLine(discount);
 
             Console.ReadLine();
 
@@ -188,10 +243,3 @@ namespace Learning_C_Sharp
 }
 
 
-
-
-
-Console.ReadLine();
-        }
-    }
-}
