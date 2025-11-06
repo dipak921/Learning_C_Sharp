@@ -192,25 +192,24 @@ namespace Learning_C_Sharp
 
             int discount = 0;
 
-
             if (type == "premium")
             {
                 if (price >= 10000 && payamentMethod == "card")
                 {
                     Console.WriteLine("I am providing a 20% discount");
-                    discount = price + price /100 * 20;
+                    discount = price /100 * 20;
                 }
                 else if (price >= 10000 && payamentMethod == "cash")
                 {
                     Console.WriteLine("I am providing a 15% discount");
-                    discount = price + price / 100 * 15;
+                    discount = price / 100 * 15;
                 }
                 else if (price <= 10000 && payamentMethod == "any")
                 {
                     Console.WriteLine("I am providing a 10% discount");
-                    discount = price + price / 100 * 10;
+                    discount =price / 100 * 10;
                 }
-                else
+                else 
                 {
                     Console.WriteLine("Not eligible for discount");
                 }
@@ -220,21 +219,29 @@ namespace Learning_C_Sharp
                 if (price >= 5000 && payamentMethod == "card")
                 {
                     Console.WriteLine("I am providing a 5% discount");
-                    discount = price + price / 100 * 5;
+                    discount = price / 100 * 5;
                 }
-                if (price >= 5000 && payamentMethod == "cash")
+                else if (price >= 5000 && payamentMethod == "cash")
                 {
                     Console.WriteLine("I am providing a 3% discount");
-                    discount = price + price / 100 * 3;
+                    discount = price / 100 * 3;
                 }
-                else
+                else 
                 {
                     Console.WriteLine("Not eligible for discount");
                 }
             }
+            else
+            {
+                Console.WriteLine("Invalid Customer Type");
+            }
 
 
-            Console.WriteLine(discount);
+            int totalbill = price + discount;
+
+
+            Console.WriteLine($"your discount is :{ discount}");
+            Console.WriteLine($"total bill amount is :{totalbill}");
 
             Console.ReadLine();
 
