@@ -181,6 +181,69 @@ namespace Learning_C_Sharp
             //}
 
 
+            //Console.WriteLine("Enter a Price");
+            //int price = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Enter a Customer Type(Premium or Regular)");
+            //string type = Console.ReadLine();
+
+            //Console.WriteLine("Enter a PaymentMethod");
+            //string payamentMethod = Console.ReadLine();
+
+            //int discount = 0;
+
+            //if (type == "premium")
+            //{
+            //    if (price >= 10000 && payamentMethod == "card")
+            //    {
+            //        Console.WriteLine("I am providing a 20% discount");
+            //        discount = price /100 * 20;
+            //    }
+            //    else if (price >= 10000 && payamentMethod == "cash")
+            //    {
+            //        Console.WriteLine("I am providing a 15% discount");
+            //        discount = price / 100 * 15;
+            //    }
+            //    else if (price <= 10000 && payamentMethod == "any")
+            //    {
+            //        Console.WriteLine("I am providing a 10% discount");
+            //        discount =price / 100 * 10;
+            //    }
+            //    else 
+            //    {
+            //        Console.WriteLine("Not eligible for discount");
+            //    }
+            //}
+            //else if (type == "regular")
+            //{
+            //    if (price >= 5000 && payamentMethod == "card")
+            //    {
+            //        Console.WriteLine("I am providing a 5% discount");
+            //        discount = price / 100 * 5;
+            //    }
+            //    else if (price >= 5000 && payamentMethod == "cash")
+            //    {
+            //        Console.WriteLine("I am providing a 3% discount");
+            //        discount = price / 100 * 3;
+            //    }
+            //    else 
+            //    {
+            //        Console.WriteLine("Not eligible for discount");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid Customer Type");
+            //}
+
+
+            //int totalbill = price + discount;
+
+
+            //Console.WriteLine($"your discount is :{ discount}");
+            //Console.WriteLine($"total bill amount is :{totalbill}");
+
+
             Console.WriteLine("Enter a Price");
             int price = Convert.ToInt32(Console.ReadLine());
 
@@ -191,52 +254,40 @@ namespace Learning_C_Sharp
             string payamentMethod = Console.ReadLine();
 
             int discount = 0;
-
-            if (type == "premium")
+            if (type == "premium" && price >= 10000 && payamentMethod == "card")
             {
-                if (price >= 10000 && payamentMethod == "card")
-                {
-                    Console.WriteLine("I am providing a 20% discount");
-                    discount = price /100 * 20;
-                }
-                else if (price >= 10000 && payamentMethod == "cash")
-                {
-                    Console.WriteLine("I am providing a 15% discount");
-                    discount = price / 100 * 15;
-                }
-                else if (price <= 10000 && payamentMethod == "any")
-                {
-                    Console.WriteLine("I am providing a 10% discount");
-                    discount =price / 100 * 10;
-                }
-                else 
-                {
-                    Console.WriteLine("Not eligible for discount");
-                }
+                Console.WriteLine("I am provoiding a 20% discount");
+                discount = price / 100 * 20;
             }
-            else if (type == "regular")
+            else if (type == "premium" && price >= 10000 && payamentMethod == "cash")
             {
-                if (price >= 5000 && payamentMethod == "card")
-                {
-                    Console.WriteLine("I am providing a 5% discount");
-                    discount = price / 100 * 5;
-                }
-                else if (price >= 5000 && payamentMethod == "cash")
-                {
-                    Console.WriteLine("I am providing a 3% discount");
-                    discount = price / 100 * 3;
-                }
-                else 
-                {
-                    Console.WriteLine("Not eligible for discount");
-                }
+                Console.WriteLine("I am provoiding a 15% discount");
+                discount = price / 100 * 15;
+            }
+            else if (type == "premium" && price <= 10000 && payamentMethod == "any")
+            {
+                Console.WriteLine("I am provoiding a 10% discount");
+                discount = price / 100 * 10;
+            }
+            else if (type == "regular" && price >= 5000 && payamentMethod == "card")
+            {
+                Console.WriteLine("I am provoiding a 5% discount");
+                discount = price / 100 * 5;
+            }
+
+            else if (type == "regular" && price >= 5000 && payamentMethod == "cash")
+            {
+                Console.WriteLine("I am provoiding a 3% discount");
+                discount = price / 100 * 3;
+            }
+            else if (type == "regular" && price <= 5000 && payamentMethod == "any")
+            {
+                Console.WriteLine("Sorry No Discout Available");
             }
             else
             {
-                Console.WriteLine("Invalid Customer Type");
+                Console.WriteLine("Invalid Customer");
             }
-
-
             int totalbill = price + discount;
 
 
