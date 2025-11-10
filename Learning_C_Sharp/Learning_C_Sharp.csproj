@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.conditional_statment</StartupObject>
+    <StartupObject>Learning_C_Sharp.Loop</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="conditional_statment.cs" />
     <Compile Include="datatype.cs" />
+    <Compile Include="Loop.cs" />
     <Compile Include="operator_with_user_input.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
