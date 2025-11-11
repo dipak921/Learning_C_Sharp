@@ -62,31 +62,34 @@ namespace Learning_C_Sharp
             //        Console.Write(number[i,j] + "\t " );
             //    }
             //    Console.WriteLine();
-            }
+            
 
         //  enter mark form user mark 2 student three subject
         int[,] marks = new int[2, 3];
 
-        Console.WriteLine("Enter marks for 2 students (3 subjects each):");
+        Console.WriteLine("Enter marks for 2 student (3 subject)");
 
-for (int i = 0; i< 2; i++)
-{
-    Console.WriteLine($"\nStudent {i + 1}:");
-    for (int j = 0; j< 3; j++)
-    {
-        Console.Write($"Enter marks for Subject {j + 1}: ");
-        marks[i, j] = Convert.ToInt32(Console.ReadLine());
-    }
-}
+   for(int i= 0; i<2;i++)
+   {
+       Console.WriteLine($"student {i + 1}");
 
-Console.WriteLine("\nMarks Entered:");
+       for(int j=0;j<3;j++)
+       {
+           Console.Write($"Enter mark {j + 1} :");
+           marks[i, j] = Convert.ToInt32(Console.ReadLine());
 
+       }
+    Console.WriteLine();
+   }
+
+Console.WriteLine("marks enterd:");
 for (int i = 0; i < 2; i++)
 {
-    Console.Write($"Student {i + 1}: ");
+    Console.Write($"student {i + 1}:");
     for (int j = 0; j < 3; j++)
     {
         Console.Write(marks[i, j] + "\t");
+
     }
     Console.WriteLine();
 }
