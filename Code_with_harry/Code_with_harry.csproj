@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{73C3CAC8-F445-457C-AA25-DFE05E3256DE}</ProjectGuid>
+    <ProjectGuid>{A6908796-A56E-48E4-9476-64262D4003F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Learning_C_Sharp</RootNamespace>
-    <AssemblyName>Learning_C_Sharp</AssemblyName>
+    <RootNamespace>Code_with_harry</RootNamespace>
+    <AssemblyName>Code_with_harry</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Array</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,11 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array.cs" />
-    <Compile Include="conditional_statment.cs" />
-    <Compile Include="datatype.cs" />
-    <Compile Include="Loop.cs" />
-    <Compile Include="operator_with_user_input.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
