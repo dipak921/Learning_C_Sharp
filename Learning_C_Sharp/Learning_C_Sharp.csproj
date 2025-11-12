@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Array</StartupObject>
+    <StartupObject>Learning_C_Sharp.jagged_array</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,8 @@
     <Compile Include="Array.cs" />
     <Compile Include="conditional_statment.cs" />
     <Compile Include="datatype.cs" />
+    <Compile Include="Function_Functio.cs" />
+    <Compile Include="jagged_array.cs" />
     <Compile Include="Loop.cs" />
     <Compile Include="operator_with_user_input.cs" />
     <Compile Include="Program.cs" />
