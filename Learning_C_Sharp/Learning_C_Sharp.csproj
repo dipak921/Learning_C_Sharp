@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.non_static_function</StartupObject>
+    <StartupObject>Learning_C_Sharp.Home_work_ex</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="datatype.cs" />
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />
+    <Compile Include="Home_work_ex.cs" />
     <Compile Include="jagged_array.cs" />
     <Compile Include="Loop.cs" />
     <Compile Include="non_static_function.cs" />
