@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Home_work_ex</StartupObject>
+    <StartupObject>Learning_C_Sharp.Constructor_overloading</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,9 @@
   <ItemGroup>
     <Compile Include="Array.cs" />
     <Compile Include="conditional_statment.cs" />
+    <Compile Include="Constructor_copy.cs" />
+    <Compile Include="Constructor_overloading.cs" />
+    <Compile Include="Constructor_type.cs" />
     <Compile Include="datatype.cs" />
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />

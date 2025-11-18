@@ -62,10 +62,17 @@ namespace Learning_C_Sharp
             Console.Write("Enter total amount : ");
             double totalAmount = double.Parse(Console.ReadLine());
 
+
+
             double finalPrice = great.FinalPay(discount, totalAmount);
             Console.WriteLine($"Final Amount after discount: {finalPrice}");
 
+
+
+
             Console.Write("thank you for shopping");
+
+
 
             Console.ReadLine();
         }
