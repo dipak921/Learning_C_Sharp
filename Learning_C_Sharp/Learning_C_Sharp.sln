@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning_C_Sharp", "Learning_C_Sharp.csproj", "{73C3CAC8-F445-457C-AA25-DFE05E3256DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_with_harry", "..\Code_with_harry\Code_with_harry.csproj", "{A6908796-A56E-48E4-9476-64262D4003F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_in_c_sharp", "..\Code_with_harry\Practice_in_c_sharp.csproj", "{A6908796-A56E-48E4-9476-64262D4003F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

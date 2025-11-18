@@ -14,7 +14,8 @@ namespace Code_with_harry
     // a constucto which has not defined any parametes or we can say without any parametes is called default constructo. it initializes the same value of every instance of class.
     
     // Parameterized constructor
-    // -- A constructor which has at least one parameter is called parameterizes constructor. Using this type of constructor we can initialize each instance of the class to different values. 
+    // -- A constructor which has at least one parameter is called parameterizes constructor. Using this type of
+    // constructor we can initialize each instance of the class to different values. 
     internal class Constructor
     {
         // Default Constructors

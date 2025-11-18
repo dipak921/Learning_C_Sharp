@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Code_with_harry.Enum_c_sharp</StartupObject>
+    <StartupObject>Code_with_harry.create_calculator_application</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Class_and_Objects.cs" />
     <Compile Include="Constructor.cs" />
+    <Compile Include="create_calculator_application.cs" />
     <Compile Include="Enum_c_sharp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -57,7 +57,8 @@ namespace Learning_C_Sharp
 
             //Frist Method
             Constructor_type s1 = new Constructor_type("dipak",101,22,32000);
-            
+            Constructor_type s2 = new Constructor_type("anna",102,23,35000);
+
             Console.WriteLine($"Name is :{s1.getName()}");
             Console.WriteLine($"EmpId is :{s1.getEmpId()}");
             Console.WriteLine($"Age is :{s1.getAge()}");
