@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Code_with_harry.create_calculator_application</StartupObject>
+    <StartupObject>Code_with_harry.inheritance_type</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,8 @@
     <Compile Include="Constructor.cs" />
     <Compile Include="create_calculator_application.cs" />
     <Compile Include="Enum_c_sharp.cs" />
+    <Compile Include="inheritance.cs" />
+    <Compile Include="inheritance_type.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
