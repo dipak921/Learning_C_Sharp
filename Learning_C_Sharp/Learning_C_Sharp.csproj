@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Constructor_overloading</StartupObject>
+    <StartupObject>Learning_C_Sharp.multilevel_inheritance</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,9 +54,12 @@
     <Compile Include="datatype.cs" />
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />
+    <Compile Include="hierachical.cs" />
     <Compile Include="Home_work_ex.cs" />
+    <Compile Include="inheritance_in_class.cs" />
     <Compile Include="jagged_array.cs" />
     <Compile Include="Loop.cs" />
+    <Compile Include="multilevel_inheritance.cs" />
     <Compile Include="non_static_function.cs" />
     <Compile Include="operator_with_user_input.cs" />
     <Compile Include="Program.cs" />
