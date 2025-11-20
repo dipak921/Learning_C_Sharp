@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.multilevel_inheritance</StartupObject>
+    <StartupObject>Learning_C_Sharp.method_overriding</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,6 +59,8 @@
     <Compile Include="inheritance_in_class.cs" />
     <Compile Include="jagged_array.cs" />
     <Compile Include="Loop.cs" />
+    <Compile Include="Method_overloading.cs" />
+    <Compile Include="method_overriding.cs" />
     <Compile Include="multilevel_inheritance.cs" />
     <Compile Include="non_static_function.cs" />
     <Compile Include="operator_with_user_input.cs" />
