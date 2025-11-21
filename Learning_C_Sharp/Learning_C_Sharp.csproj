@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.method_overriding</StartupObject>
+    <StartupObject>Learning_C_Sharp.billing</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array.cs" />
+    <Compile Include="billing.cs" />
     <Compile Include="conditional_statment.cs" />
     <Compile Include="Constructor_copy.cs" />
     <Compile Include="Constructor_overloading.cs" />
