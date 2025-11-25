@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{73C3CAC8-F445-457C-AA25-DFE05E3256DE}</ProjectGuid>
+    <ProjectGuid>{18812BE2-5CBB-40B6-AB8D-BABC204E33FA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Learning_C_Sharp</RootNamespace>
-    <AssemblyName>Learning_C_Sharp</AssemblyName>
+    <RootNamespace>acc2</RootNamespace>
+    <AssemblyName>acc2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.operator_overloading</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,31 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array.cs" />
-    <Compile Include="billing.cs" />
-    <Compile Include="conditional_statment.cs" />
-    <Compile Include="Constructor_copy.cs" />
-    <Compile Include="Constructor_overloading.cs" />
-    <Compile Include="Constructor_type.cs" />
-    <Compile Include="datatype.cs" />
-    <Compile Include="Function_Functio.cs" />
-    <Compile Include="function_type.cs" />
-    <Compile Include="hierachical.cs" />
-    <Compile Include="Home_work_ex.cs" />
-    <Compile Include="inheritance_in_class.cs" />
-    <Compile Include="jagged_array.cs" />
-    <Compile Include="Loop.cs" />
-    <Compile Include="Method_overloading.cs" />
-    <Compile Include="method_overriding.cs" />
-    <Compile Include="multilevel_inheritance.cs" />
-    <Compile Include="non_static_function.cs" />
-    <Compile Include="operator_overloading.cs" />
-    <Compile Include="operator_with_user_input.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\acc1\acc1.csproj">
+      <Project>{7c71523e-60a8-411c-a916-fe4c0a6bf14a}</Project>
+      <Name>acc1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

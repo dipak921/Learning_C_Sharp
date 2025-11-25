@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning_C_Sharp", "Learnin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_with_harry", "..\Code_with_harry\Code_with_harry.csproj", "{A6908796-A56E-48E4-9476-64262D4003F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "acc1", "..\acc1\acc1.csproj", "{7C71523E-60A8-411C-A916-FE4C0A6BF14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "acc2", "..\acc2\acc2.csproj", "{18812BE2-5CBB-40B6-AB8D-BABC204E33FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A6908796-A56E-48E4-9476-64262D4003F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6908796-A56E-48E4-9476-64262D4003F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6908796-A56E-48E4-9476-64262D4003F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C71523E-60A8-411C-A916-FE4C0A6BF14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C71523E-60A8-411C-A916-FE4C0A6BF14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C71523E-60A8-411C-A916-FE4C0A6BF14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C71523E-60A8-411C-A916-FE4C0A6BF14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18812BE2-5CBB-40B6-AB8D-BABC204E33FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18812BE2-5CBB-40B6-AB8D-BABC204E33FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18812BE2-5CBB-40B6-AB8D-BABC204E33FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18812BE2-5CBB-40B6-AB8D-BABC204E33FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
