@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.operator_overloading</StartupObject>
+    <StartupObject>Learning_C_Sharp.shopping_ex_with_abstraction</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction_salary_example.cs" />
     <Compile Include="Array.cs" />
     <Compile Include="billing.cs" />
     <Compile Include="complie_time_overloading_method.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="operator_with_user_input.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shopping_ex_with_abstraction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

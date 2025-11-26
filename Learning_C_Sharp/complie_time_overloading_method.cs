@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 //      Access Modifiers 
-//--> C sharp provide you with access modifiers that allow yuu to specify which classes can the datamembers of a particular class.
+//--> C sharp provide you with access modifiers that allow you to specify which classes can the datamembers of a particular class.
 //--> in c sharp there are four commounly used acces modifiers 
 //--> 1. Public  2. Private   3. Protected 4. Internal
 // --> in c sharp deault access modifier for top-level class and structs is internal,while the
