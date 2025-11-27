@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.NetBankingPyament.abstraction_ex2</StartupObject>
+    <StartupObject>Learning_C_Sharp.abstract_ex3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="abstraction_ex2.cs" />
     <Compile Include="Abstraction_ex_1.cs" />
     <Compile Include="Abstraction_salary_example.cs" />
+    <Compile Include="abstract_ex3.cs" />
     <Compile Include="Array.cs" />
     <Compile Include="billing.cs" />
     <Compile Include="complie_time_overloading_method.cs" />
