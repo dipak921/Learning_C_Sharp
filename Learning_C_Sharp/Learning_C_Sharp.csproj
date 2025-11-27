@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.shopping_ex_with_abstraction</StartupObject>
+    <StartupObject>Learning_C_Sharp.NetBankingPyament.abstraction_ex2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="abstraction_ex2.cs" />
+    <Compile Include="Abstraction_ex_1.cs" />
     <Compile Include="Abstraction_salary_example.cs" />
     <Compile Include="Array.cs" />
     <Compile Include="billing.cs" />
