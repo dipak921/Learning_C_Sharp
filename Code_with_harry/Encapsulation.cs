@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 /*
  ENCAPSULATION
 --> Encapsulation is one of the four fundamental opp concepts. 
-The other three are inheritance, polmorphism, and abstraction
+The other three are inheritance, polymorphism, and abstraction
 --> Encapsulation in C# is a mechanism of wrapping the data (variable)
 and code acting on the data (methods or properties) together as a signle unit.
 --> In encapsulation, the variable of a class will be hidden from other classes, 

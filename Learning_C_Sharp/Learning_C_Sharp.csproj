@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.interface_using_multiple_inhertance</StartupObject>
+    <StartupObject>Learning_C_Sharp.Encapsulation_ex2_banking</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,8 @@
     <Compile Include="Constructor_overloading.cs" />
     <Compile Include="Constructor_type.cs" />
     <Compile Include="datatype.cs" />
+    <Compile Include="Encapsulation1.cs" />
+    <Compile Include="Encapsulation_ex2_banking.cs" />
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />
     <Compile Include="hierachical.cs" />
