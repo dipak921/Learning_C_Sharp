@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Encapsulation_ex2_banking</StartupObject>
+    <StartupObject>Learning_C_Sharp.Non_Gerneric_array_list</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,7 @@
     <Compile Include="datatype.cs" />
     <Compile Include="Encapsulation1.cs" />
     <Compile Include="Encapsulation_ex2_banking.cs" />
+    <Compile Include="Encapsulation_ex3.cs" />
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />
     <Compile Include="hierachical.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="method_overriding.cs" />
     <Compile Include="multilevel_inheritance.cs" />
     <Compile Include="multiple_inheritance.cs" />
+    <Compile Include="Non-Gerneric_array_list.cs" />
     <Compile Include="non_static_function.cs" />
     <Compile Include="operator_overloading.cs" />
     <Compile Include="operator_with_user_input.cs" />
