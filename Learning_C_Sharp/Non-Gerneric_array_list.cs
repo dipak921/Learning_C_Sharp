@@ -114,10 +114,10 @@ namespace Learning_C_Sharp
 
         static void Exmple5_using_object()
         {
-            ArrayList student12 = new ArrayList();
-            student12.Add(new student12 { Name = "Dipak", Age = 59 });
-            student12.Add(new student12 { Name = "Rakesh", Age = 53 });
-            foreach(student12 s in student12)
+            ArrayList student2 = new ArrayList();
+            student2.Add(new student12 { Name = "Dipak", Age = 59 });
+            student2.Add(new student12 { Name = "Rakesh", Age = 53 });
+            foreach(student12 s in student2)
             {
                 Console.WriteLine($"{s.Name} - {s.Age}");
             }
