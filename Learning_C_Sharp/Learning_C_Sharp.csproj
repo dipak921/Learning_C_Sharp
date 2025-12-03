@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Non_Gerneric_array_list</StartupObject>
+    <StartupObject>Learning_C_Sharp.Queue_non_Generic_collection</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -81,7 +81,11 @@
     <Compile Include="operator_with_user_input.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queue_non_Generic_collection.cs" />
     <Compile Include="shopping_ex_with_abstraction.cs" />
+    <Compile Include="stack2_non-Generic_collection.cs" />
+    <Compile Include="stack3_non-Generic_collections_user_input.cs" />
+    <Compile Include="stack_non-Generic_collections.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
