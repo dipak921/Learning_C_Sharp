@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Queqe_ex_with_user_input</StartupObject>
+    <StartupObject>Learning_C_Sharp.Sorted_list_non_generic_collections</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,6 +63,7 @@
     <Compile Include="Encapsulation_ex3.cs" />
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />
+    <Compile Include="Hashtable_non_generic_collections.cs" />
     <Compile Include="hierachical.cs" />
     <Compile Include="Home_work_ex.cs" />
     <Compile Include="inheritance_in_class.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Queqe_ex_with_user_input.cs" />
     <Compile Include="Queue_non_Generic_collection.cs" />
     <Compile Include="shopping_ex_with_abstraction.cs" />
+    <Compile Include="Sorted_list_non_generic_collections.cs" />
     <Compile Include="stack2_non-Generic_collection.cs" />
     <Compile Include="stack3_non-Generic_collections_user_input.cs" />
     <Compile Include="stack_non-Generic_collections.cs" />
