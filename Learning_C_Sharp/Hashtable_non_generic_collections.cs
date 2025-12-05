@@ -4,7 +4,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+/*
+  What is a Hashtable (Non-Generic)?
+- Namespace: System.Collections
+- Definition: A non-generic collection that stores key–value pairs.
+- Key uniqueness: Each key must be unique.
+- Value flexibility: Values can be of any type (since it’s non-generic, stored as object).
+- Hashing principle: Internally, it uses a hash code of the key to quickly locate 
+- यात key–value pairs ठेवले जातात.
+- Key unique असतो, value काहीही असू शकतो (string, int, bool).
 
+
+- Properties:
+- Count → किती pairs आहेत
+- Keys → सगळे keys मिळतात
+- Values → सगळे values मिळतात
+- ContainsKey → दिलेला key आहे का?
+- ContainsValue → दिलेला value आहे का?
+- Item[key] → key ने value मिळ
+
+
+ 
+ */
 namespace Learning_C_Sharp
 {
     internal class Hashtable_non_generic_collections
