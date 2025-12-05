@@ -4,7 +4,18 @@ using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
+/*
+ In C#, a non-generic Stack is part of the System.Collections namespace.
+It is a Last-In-First-Out (LIFO) collection,
+meaning the last item added is the first one to be removed.
 
+Push(object)->Adds an object to the top of the stack
+Pop()->Removes and returns the object at the top
+Peek()->Returns the object at the top without removing it
+Contains(obj)->Checks if an object exists
+Clear()->Removes all objects
+Count (property)->Gets the number of elements
+ */
 namespace Learning_C_Sharp
 {
     internal class Generic_stack
