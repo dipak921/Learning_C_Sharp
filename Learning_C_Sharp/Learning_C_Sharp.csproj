@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Sorted_list_non_generic_collections</StartupObject>
+    <StartupObject>Learning_C_Sharp.Generic_stack</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,6 +63,9 @@
     <Compile Include="Encapsulation_ex3.cs" />
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />
+    <Compile Include="Generic_DictionaryList_ex.cs" />
+    <Compile Include="Generic_list_1.cs" />
+    <Compile Include="Generic_stack.cs" />
     <Compile Include="Hashtable_non_generic_collections.cs" />
     <Compile Include="hierachical.cs" />
     <Compile Include="Home_work_ex.cs" />
