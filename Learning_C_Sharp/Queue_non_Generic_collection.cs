@@ -4,6 +4,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+/*
+ * What is non generic queue
+ -->A Queue is a First-In-First-Out (FIFO) collection: the first element added is the first one removed.
+    ---- --Key Points----------
+- Enqueue() → adds items.
+- Dequeue() → removes first item.
+- Peek() → shows first item without removing.
+- Count → gives total items.
+
+ */
+
 
 namespace Learning_C_Sharp
 {

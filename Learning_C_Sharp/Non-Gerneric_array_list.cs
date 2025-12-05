@@ -4,6 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
+/*
+  What is ArrayList (Non-Generic)?
+- ArrayList is part of System.Collections namespace.
+- It is a non-generic collection that can store any type of object (mixed types allowed).
+- Internally, it works like a resizable array.
+- Unlike arrays, its size grows/shrinks dynamically as you add or remove elements.
+- Because it’s non-generic, type safety is not enforced (boxing/unboxing happens for value types).
+- यात वेगवेगळ्या प्रकारचे elements ठेवता येतात (string, int, float, bool).
+
+
+
+- Properties:
+- Count → किती elements आहेत
+- Capacity → किती जागा allocate झाली आहे
+- IsFixedSize → size fix आहे का? (default: नाही)
+- IsReadOnly → फक्त वाचता येतं का? (default: नाही)
+- Item[index] → index ने element access करता ये
+
+ 
+ 
+ */
+
 
 namespace Learning_C_Sharp
 {
