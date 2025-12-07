@@ -3,7 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+/*
+ * What is List<T>
+ List<T> is a part of the System.Collections.Generic namespace.
+-->It is a generic collection — meaning it can store a list of any specific type (int, string, double, etc.).
+-->Internally implemented as a dynamic array — it resizes automatically as elements are added or removed.
 
+ Marathi Explanation
+- Count: यादीत सध्या किती elements आहेत ते दाखवते.
+- Capacity: यादी किती elements ठेवू शकते ते दाखवते (गरज पडली की आपोआप वाढते).
+- Indexer: list[i] वापरून element access/बदल करता येतो.
+- IsReadOnly: नेहमी false असते कारण List बदलता येते.
+👉 उदाहरण:
+- जर Count = 3 आणि Capacity = 4, तर अजून एक element add करता येईल resize न करता.
+
+ */
 namespace Learning_C_Sharp
 {
     internal class Generic_list_1

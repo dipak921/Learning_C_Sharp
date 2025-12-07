@@ -4,6 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ Dictionary in C# is a generic collection that stores key-value pairs. The working of Dictionary is quite similar to the non-generic hashtable.
+The advantage of a Dictionary is, that it is a generic type. A dictionary is defined under System.Collections.Generic namespace.
+It is dynamic in nature means the size of the dictionary is growing according to the need.
+
+Key-Value Pair: The value is stored in the Key-Value pair.
+Efficient Lookup: It provides fast lookups for values based on keys.
+Unique Keys: Stored keys uniquely and adding duplicate keys results in a runtime exception.
+
+- Dictionary<TKey, TValue>: key-value जोड्यांचा संग्रह; key ने lookup अतिशय जलद.
+- Key unique: एकाच key चे दोन entries होत नाहीत.
+- Safe lookup: TryGetValue वापरा; missing key वर exception टाळा.
+- Comparer: StringComparer.OrdinalIgnoreCase दिल्यास case-insensitive keys मिळतात.
+- Order: हमखास नाही; क्रम हवे असेल तर SortedDictionary किंवा वेगळ्या List मध्ये order जपा.
+If you want, I’ll craft a compact “only one if” upsert demo and a frequency counter with neat formatting, aligned to your minimal-logic style.
+
+ */
 namespace Learning_C_Sharp
 {
     internal class Generic_DictionaryList_ex
