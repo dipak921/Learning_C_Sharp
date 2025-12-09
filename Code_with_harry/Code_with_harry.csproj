@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Code_with_harry.ToDoList</StartupObject>
+    <StartupObject>Code_with_harry.tic_tac_toc</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

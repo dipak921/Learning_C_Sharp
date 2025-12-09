@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Generic_Queue</StartupObject>
+    <StartupObject>Learning_C_Sharp.Generic_LinkList</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,8 +64,11 @@
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />
     <Compile Include="Generic_DictionaryList_ex.cs" />
+    <Compile Include="Generic_Hash_Set.cs" />
+    <Compile Include="Generic_LinkList.cs" />
     <Compile Include="Generic_list_1.cs" />
     <Compile Include="Generic_Queue.cs" />
+    <Compile Include="Generic_sortedList.cs" />
     <Compile Include="Generic_stack.cs" />
     <Compile Include="Hashtable_non_generic_collections.cs" />
     <Compile Include="hierachical.cs" />
