@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Generic_LinkList</StartupObject>
+    <StartupObject>Learning_C_Sharp.Exception_ex2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,8 @@
     <Compile Include="Encapsulation1.cs" />
     <Compile Include="Encapsulation_ex2_banking.cs" />
     <Compile Include="Encapsulation_ex3.cs" />
+    <Compile Include="Exception_ex1.cs" />
+    <Compile Include="Exception_ex2.cs" />
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />
     <Compile Include="Generic_DictionaryList_ex.cs" />
@@ -81,6 +83,7 @@
     <Compile Include="Loop.cs" />
     <Compile Include="Method_overloading.cs" />
     <Compile Include="method_overriding.cs" />
+    <Compile Include="Mini_Project_using_generic_collection.cs" />
     <Compile Include="multilevel_inheritance.cs" />
     <Compile Include="multiple_inheritance.cs" />
     <Compile Include="Non-Gerneric_array_list.cs" />
