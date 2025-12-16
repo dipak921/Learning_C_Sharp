@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.StarPattern</StartupObject>
+    <StartupObject>Learning_C_Sharp.GroceryStoreCalculator</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -72,6 +72,7 @@
     <Compile Include="Generic_Queue.cs" />
     <Compile Include="Generic_sortedList.cs" />
     <Compile Include="Generic_stack.cs" />
+    <Compile Include="GroceryStoreCalculator.cs" />
     <Compile Include="Hashtable_non_generic_collections.cs" />
     <Compile Include="hierachical.cs" />
     <Compile Include="Home_work_ex.cs" />
