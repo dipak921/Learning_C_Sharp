@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.GroceryStoreCalculator</StartupObject>
+    <StartupObject>Learning_C_Sharp.file_handling</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,6 +63,7 @@
     <Compile Include="Encapsulation_ex3.cs" />
     <Compile Include="Exception_ex1.cs" />
     <Compile Include="Exception_ex2.cs" />
+    <Compile Include="file_handling.cs" />
     <Compile Include="Function_Functio.cs" />
     <Compile Include="function_type.cs" />
     <Compile Include="Generic_DictionaryList_ex.cs" />
