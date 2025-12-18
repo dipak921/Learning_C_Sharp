@@ -82,7 +82,7 @@ namespace Learning_C_Sharp
             //    Console.WriteLine("Not Found File.");
             //}
 
-            //Console.WriteLine("--------------- Copy Text file  another folder --------------------");
+            //Console.WriteLine("--------------- Copy Text file  another folder ------------------");
 
             //string login = @"C:\\File_user_data\login_infromation_data.txt";
             //string login3 = @"C:\\File_user_data\copy\login_infromation.txt";
@@ -96,7 +96,7 @@ namespace Learning_C_Sharp
             //    Console.WriteLine("Not Found File.");
             //}
 
-            // --------------- CREATE, READ, MOVE, DELETER USE A DICTIONARY CLASS -----------------------
+            // --------------- CREATE, READ, MOVE, DELETER USE A DICTIONARY CLASS ---
             //Console.WriteLine("CREATE, READ, MOVE, DELETER USE A DICTIONARY CLASS");
 
             //string path1 = @"C:\\Folder2";
@@ -149,7 +149,7 @@ namespace Learning_C_Sharp
             Console.WriteLine(dir2.Parent);
             Console.WriteLine(dir2.Root);
             Console.WriteLine(dir2.LastWriteTime);
-            Console.WriteLine("--------------------------------------------------------");
+            Console.WriteLine("----------------------------");
 
             Console.ReadLine();
         }

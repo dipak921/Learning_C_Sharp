@@ -97,12 +97,14 @@
     <Compile Include="Queqe_ex_with_user_input.cs" />
     <Compile Include="Queue_non_Generic_collection.cs" />
     <Compile Include="ReverseStarPattern.cs" />
+    <Compile Include="reverse_print.cs" />
     <Compile Include="shopping_ex_with_abstraction.cs" />
     <Compile Include="Sorted_list_non_generic_collections.cs" />
     <Compile Include="stack2_non-Generic_collection.cs" />
     <Compile Include="stack3_non-Generic_collections_user_input.cs" />
     <Compile Include="stack_non-Generic_collections.cs" />
     <Compile Include="StarPattern.cs" />
+    <Compile Include="swap_two_number.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
