@@ -14,18 +14,28 @@ namespace Learning_C_Sharp
         {
             string path = @"C:\streamwriter\student_data.text";
             string name;
+            double phoneno;
+            int rollNo;
             string gender;
             int age;
             Console.WriteLine("Enter Name :");
             name = Console.ReadLine();
+
+            Console.WriteLine("Enter Mobile Number :");
+            phoneno = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter Roll No:");
+            rollNo = int.Parse(Console.ReadLine());
+
             Console.WriteLine("Enter a gender");
             gender = Console.ReadLine();
+
             Console.WriteLine("Enter a Age");
             age = int.Parse(Console.ReadLine());
 
             using (StreamWriter n = new StreamWriter(path, true))
             {
-                n.WriteLine($"Name : " + name + "  Gender : " + gender + " Age :" + age);
+                n.WriteLine($"Name : " + name + " Moblile No: "+phoneno+ " Roll No. :" + rollNo +"  Gender : " + gender + " Age :" + age);
             }
             Console.WriteLine("Student data saved successfully!");
         }
