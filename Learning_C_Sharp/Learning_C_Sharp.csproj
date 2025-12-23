@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.File_Handling_Mini_Project</StartupObject>
+    <StartupObject>practice_question</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -94,6 +94,7 @@
     <Compile Include="non_static_function.cs" />
     <Compile Include="operator_overloading.cs" />
     <Compile Include="operator_with_user_input.cs" />
+    <Compile Include="practice_question.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queqe_ex_with_user_input.cs" />
