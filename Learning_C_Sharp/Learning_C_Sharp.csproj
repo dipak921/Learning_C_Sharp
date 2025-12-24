@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>practice_question</StartupObject>
+    <StartupObject>Learning_C_Sharp.lambda_expression</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -84,6 +84,7 @@
     <Compile Include="Interface_ex_1.cs" />
     <Compile Include="interface_using_multiple_inhertance.cs" />
     <Compile Include="jagged_array.cs" />
+    <Compile Include="lambda_expression.cs" />
     <Compile Include="Loop.cs" />
     <Compile Include="Method_overloading.cs" />
     <Compile Include="method_overriding.cs" />
