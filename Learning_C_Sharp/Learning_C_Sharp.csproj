@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.lambda_expression</StartupObject>
+    <StartupObject>Learning_C_Sharp.mini_project_</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -88,6 +88,7 @@
     <Compile Include="Loop.cs" />
     <Compile Include="Method_overloading.cs" />
     <Compile Include="method_overriding.cs" />
+    <Compile Include="mini_project_.cs" />
     <Compile Include="Mini_Project_using_generic_collection.cs" />
     <Compile Include="multilevel_inheritance.cs" />
     <Compile Include="multiple_inheritance.cs" />
