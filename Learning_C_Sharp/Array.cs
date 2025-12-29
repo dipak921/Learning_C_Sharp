@@ -69,9 +69,9 @@ namespace Learning_C_Sharp
 
         Console.WriteLine("Enter marks for 2 student (3 subject)");
 
-   for(int i= 0; i<2;i++)
-   {
-       Console.WriteLine($"student {i + 1}");
+        for(int i= 0; i<2;i++)
+         {
+             Console.WriteLine($"student {i + 1}");
 
        for(int j=0;j<3;j++)
        {

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.mini_project_</StartupObject>
+    <StartupObject>menu</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -86,6 +86,7 @@
     <Compile Include="jagged_array.cs" />
     <Compile Include="lambda_expression.cs" />
     <Compile Include="Loop.cs" />
+    <Compile Include="menu.cs" />
     <Compile Include="Method_overloading.cs" />
     <Compile Include="method_overriding.cs" />
     <Compile Include="mini_project_.cs" />

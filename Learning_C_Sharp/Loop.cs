@@ -50,14 +50,14 @@ namespace Learning_C_Sharp
             //Console.WriteLine("Nested For Loop");
             //Console.WriteLine("============================");
 
-            //for (int i = 1; i <= 10; i++)
-            //{
-            //    for(int j = 1; j <= 10; j++)
-            //    {
-            //        Console.Write($"{i * j}\t");
-            //    }
-            //    Console.WriteLine();
-            //}
+            for (int i = 1; i <= 10; i++)
+            {
+                for (int j = 1; j <= 10; j++)
+                {
+                    Console.Write($"{i * j}\t");
+                }
+                Console.WriteLine();
+            }
 
 
             //Console.WriteLine("\n============================");
@@ -200,57 +200,57 @@ namespace Learning_C_Sharp
 
 
             //Print Fibonacci Series
-         //Write a program to print the first N numbers of the Fibonacci series using a for loop.
+            //Write a program to print the first N numbers of the Fibonacci series using a for loop.
 
-            Console.Write("Enter the number of terms (N): ");
-            int n = int.Parse(Console.ReadLine());
+            //Console.Write("Enter the number of terms (N): ");
+            //int n = int.Parse(Console.ReadLine());
 
-            int first = 0, second = 1;
+            //int first = 0, second = 1;
 
-            Console.WriteLine("Fibonacci Series:");
+            //Console.WriteLine("Fibonacci Series:");
 
-            for (int i = 1; i <= n; i++)
-            {
-                Console.Write(first + " ");
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    Console.Write(first + " ");
 
-                int next = first + second;
-                first = second;
-                second = next;
-            }
+            //    int next = first + second;
+            //    first = second;
+            //    second = next;
+            //}
 
             //Display Squares of Numbers
             // Write a program to display the square of all numbers from 1 to 10 using a for loop.
 
-            Console.WriteLine("Squares of numbers from 1 to 10:");
+            //Console.WriteLine("Squares of numbers from 1 to 10:");
 
-            for (int i = 1; i <= 10; i++)
-            {
-                int square = i * i;
-                Console.WriteLine($"Square of {i} = {square}");
-            }
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    int square = i * i;
+            //    Console.WriteLine($"Square of {i} = {square}");
+            //}
 
-            //Count Number of Digits
-            //Write a program to count how many digits are in a given number using a for loop.
+            ////Count Number of Digits
+            ////Write a program to count how many digits are in a given number using a for loop.
 
-            Console.Write("Enter a number: ");
-            int num = int.Parse(Console.ReadLine());
+            //Console.Write("Enter a number: ");
+            //int num = int.Parse(Console.ReadLine());
 
-            int count = 0;
-            int temp = Math.Abs(num); // Handle negative numbers
+            //int count = 0;
+            //int temp = Math.Abs(num); // Handle negative numbers
 
-            if (temp == 0)
-            {
-                count = 1; // Special case: 0 has 1 digit
-            }
-            else
-            {
-                for (; temp > 0; temp /= 10)
-                {
-                    count++;
-                }
-            }
+            //if (temp == 0)
+            //{
+            //    count = 1; // Special case: 0 has 1 digit
+            //}
+            //else
+            //{
+            //    for (; temp > 0; temp /= 10)
+            //    {
+            //        count++;
+            //    }
+            //}
 
-            Console.WriteLine($"Number of digits = {count}");
+            //Console.WriteLine($"Number of digits = {count}");
 
 
 
