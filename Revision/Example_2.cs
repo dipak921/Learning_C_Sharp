@@ -61,10 +61,6 @@ Final payable amount
                 Console.WriteLine("\nLogin Denied");
             }
 
-
-
-
-
         }
         static void Main(string[] args)
         {

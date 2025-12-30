@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Revision.Example_2</StartupObject>
+    <StartupObject>Revision.Example_8</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Example_1.cs" />
     <Compile Include="Example_2.cs" />
+    <Compile Include="Example_3.cs" />
+    <Compile Include="Example_4.cs" />
+    <Compile Include="Example_5.cs" />
+    <Compile Include="Example_6.cs" />
+    <Compile Include="Example_7.cs" />
+    <Compile Include="Example_8.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
