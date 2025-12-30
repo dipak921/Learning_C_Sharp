@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>menu</StartupObject>
+    <StartupObject>Learning_C_Sharp.BankAccount_CO</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="Abstraction_salary_example.cs" />
     <Compile Include="abstract_ex3.cs" />
     <Compile Include="Array.cs" />
+    <Compile Include="BankAccount_CO.cs" />
     <Compile Include="billing.cs" />
     <Compile Include="complie_time_overloading_method.cs" />
     <Compile Include="conditional_statment.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="stack3_non-Generic_collections_user_input.cs" />
     <Compile Include="stack_non-Generic_collections.cs" />
     <Compile Include="StarPattern.cs" />
+    <Compile Include="Students.cs" />
     <Compile Include="swap_two_number.cs" />
   </ItemGroup>
   <ItemGroup>

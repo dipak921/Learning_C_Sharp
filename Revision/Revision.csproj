@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Revision.Exmple_9</StartupObject>
+    <StartupObject>Revision.Example_5</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
