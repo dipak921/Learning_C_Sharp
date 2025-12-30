@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Revision.Example_8</StartupObject>
+    <StartupObject>Revision.Exmple_9</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +54,7 @@
     <Compile Include="Example_6.cs" />
     <Compile Include="Example_7.cs" />
     <Compile Include="Example_8.cs" />
+    <Compile Include="Exmple_9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
