@@ -7,15 +7,17 @@ using System.Threading.Tasks;
 namespace Code_with_harry
 {
     //Constructors in c#
-    //--a class constructor is a special member function of a class that is executed whenever we create new object of that class
+    //-- a class constructor is a special member function of a class that is executed whenever we create new object of that class
     //-- a constructor has exactly the same name as that of class and it does not have any return type
-    
-    //Default constuctor 
-    // a constucto which has not defined any parametes or we can say without any parametes is called default constructo. it initializes the same value of every instance of class.
-    
-    // Parameterized constructor
-    // -- A constructor which has at least one parameter is called parameterizes constructor. Using this type of
-    // constructor we can initialize each instance of the class to different values. 
+
+    //Default Constructors 
+    // a constucto which has not defined any parametes or we can say without any parametes is called default constructo.
+    // it initializes the same value of every instance of class.
+
+    /* Parameterized constructor
+     -- A constructor which has at least one parameter is called parameterizes constructor. Using this type of
+          constructor we can initialize each instance of the class to different values. 
+    */
     internal class Constructor
     {
         // Default Constructors

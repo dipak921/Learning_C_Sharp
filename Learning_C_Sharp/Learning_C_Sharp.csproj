@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.BankAccount_CO</StartupObject>
+    <StartupObject>Learning_C_Sharp.Constructor_Private</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,8 +55,14 @@
     <Compile Include="billing.cs" />
     <Compile Include="complie_time_overloading_method.cs" />
     <Compile Include="conditional_statment.cs" />
+    <Compile Include="Constrctor_copy.cs" />
+    <Compile Include="Constrctor_overloading.cs" />
     <Compile Include="Constructor_copy.cs" />
+    <Compile Include="Constructor_Default.cs" />
     <Compile Include="Constructor_overloading.cs" />
+    <Compile Include="Constructor_Parameterize.cs" />
+    <Compile Include="Constructor_Private.cs" />
+    <Compile Include="Constructor_static.cs" />
     <Compile Include="Constructor_type.cs" />
     <Compile Include="datatype.cs" />
     <Compile Include="Encapsulation1.cs" />
