@@ -29,10 +29,6 @@
 //            }       
 //     }
 
-
-
-
-
 //    internal class inheritance_in_class
 //    {
 //        static void Main(string[] args)

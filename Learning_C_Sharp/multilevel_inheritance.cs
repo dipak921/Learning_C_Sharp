@@ -33,22 +33,34 @@ namespace Learning_C_Sharp
             Console.WriteLine($"fuletype is : {fuletype}");
         }
     }
-        internal class multilevel_inheritance
+
+    class f1 : sportcar
+    {
+        public string f1Name;
+        public void f1info()
+        {
+            Console.WriteLine("F1 Name :" + f1Name);
+        }
+    }
+
+    internal class multilevel_inheritance
         {
             static void Main(string[] args)
             {
-         sportcar sportcar = new sportcar();
-            sportcar.fuletype = "cng";
-            sportcar.speed = 130;
-            sportcar.brand = "toyata";
-            sportcar.seatingcpacity = 3;
-            sportcar.sportcarinfo();
-            sportcar.vehicleinfo();
-            sportcar.carinfo(); 
+                f1 sportcar = new f1();
+                sportcar.fuletype = "cng";
+                sportcar.speed = 130;
+                sportcar.brand = "toyata";
+                sportcar.seatingcpacity = 3;
+                sportcar.f1Name = "Skoda Slavia";
+                sportcar.sportcarinfo();
+                sportcar.vehicleinfo();
+                sportcar.carinfo(); 
+                sportcar.f1info();
             
 
 
-
+             Console.ReadLine();
             }
         }
     }

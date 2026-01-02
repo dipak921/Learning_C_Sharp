@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Constructor_Private</StartupObject>
+    <StartupObject>Learning_C_Sharp.multilevel_inheritance</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -87,6 +87,7 @@
     <Compile Include="hierachical.cs" />
     <Compile Include="Home_work_ex.cs" />
     <Compile Include="inheritance_in_class.cs" />
+    <Compile Include="Inheritance_revision.cs" />
     <Compile Include="interface_ex2.cs" />
     <Compile Include="Interface_ex_1.cs" />
     <Compile Include="interface_using_multiple_inhertance.cs" />
