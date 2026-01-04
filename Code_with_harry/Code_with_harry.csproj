@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Code_with_harry.tic_tac_toc</StartupObject>
+    <StartupObject>Code_with_harry.Library_Management_System</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="Constructor.cs" />
     <Compile Include="create_calculator_application.cs" />
     <Compile Include="Hotel_Mangment_System.cs" />
+    <Compile Include="Library_Management_System.cs" />
     <Compile Include="tic_tac_toc.cs" />
     <Compile Include="Encapsulation.cs" />
     <Compile Include="Enum_c_sharp.cs" />
