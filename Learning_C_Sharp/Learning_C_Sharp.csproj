@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.multilevel_inheritance</StartupObject>
+    <StartupObject>Learning_C_Sharp.Function_overriding_Ex2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +68,7 @@
     <Compile Include="Encapsulation1.cs" />
     <Compile Include="Encapsulation_ex2_banking.cs" />
     <Compile Include="Encapsulation_ex3.cs" />
+    <Compile Include="Example2_function_overloading.cs" />
     <Compile Include="Exception_ex1.cs" />
     <Compile Include="Exception_ex2.cs" />
     <Compile Include="file_handling.cs" />
@@ -105,6 +106,8 @@
     <Compile Include="non_static_function.cs" />
     <Compile Include="operator_overloading.cs" />
     <Compile Include="operator_with_user_input.cs" />
+    <Compile Include="Function_overriding_Ex2.cs" />
+    <Compile Include="Payment_fucntion_overloading.cs" />
     <Compile Include="practice_question.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
