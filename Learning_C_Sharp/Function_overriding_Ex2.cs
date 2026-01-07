@@ -61,19 +61,11 @@ namespace Learning_C_Sharp
                     Login n = new GusetLogin();
                     n.LoginUser();
                     break;
-                default :
+                default:
                     Console.WriteLine("Invalid");
                     break;
-
-
             }
-
-
-
-
-
-
-            Console.ReadLine();
+                    Console.ReadLine();
         }
     }
 }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Function_overriding_Ex2</StartupObject>
+    <StartupObject>Learning_C_Sharp.Encapsulation_ex4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,6 +68,7 @@
     <Compile Include="Encapsulation1.cs" />
     <Compile Include="Encapsulation_ex2_banking.cs" />
     <Compile Include="Encapsulation_ex3.cs" />
+    <Compile Include="Encapsulation_ex4.cs" />
     <Compile Include="Example2_function_overloading.cs" />
     <Compile Include="Exception_ex1.cs" />
     <Compile Include="Exception_ex2.cs" />
