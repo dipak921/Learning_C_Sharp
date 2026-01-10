@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.File_handling_ex1</StartupObject>
+    <StartupObject>Learning_C_Sharp.Star_Printing</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -125,6 +125,7 @@
     <Compile Include="stack3_non-Generic_collections_user_input.cs" />
     <Compile Include="stack_non-Generic_collections.cs" />
     <Compile Include="StarPattern.cs" />
+    <Compile Include="Star_Printing.cs" />
     <Compile Include="Students.cs" />
     <Compile Include="swap_two_number.cs" />
   </ItemGroup>
