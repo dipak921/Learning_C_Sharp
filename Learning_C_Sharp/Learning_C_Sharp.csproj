@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Star_Printing</StartupObject>
+    <StartupObject>Learning_C_Sharp.Delgate</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="Abstraction_salary_example.cs" />
     <Compile Include="abstract_ex3.cs" />
     <Compile Include="Array.cs" />
+    <Compile Include="Background_Notification.cs" />
     <Compile Include="BankAccount_CO.cs" />
     <Compile Include="billing.cs" />
     <Compile Include="complie_time_overloading_method.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Constructor_static.cs" />
     <Compile Include="Constructor_type.cs" />
     <Compile Include="datatype.cs" />
+    <Compile Include="Delgate.cs" />
     <Compile Include="Encapsulation1.cs" />
     <Compile Include="Encapsulation_ex2_banking.cs" />
     <Compile Include="Encapsulation_ex3.cs" />
@@ -106,6 +108,8 @@
     <Compile Include="Mini_Project_using_generic_collection.cs" />
     <Compile Include="multilevel_inheritance.cs" />
     <Compile Include="multiple_inheritance.cs" />
+    <Compile Include="Multithreading.cs" />
+    <Compile Include="Multithreading_ex2.cs" />
     <Compile Include="Non-Gerneric_array_list.cs" />
     <Compile Include="non_static_function.cs" />
     <Compile Include="operator_overloading.cs" />

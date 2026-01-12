@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Code_with_harry.Library_Management_System</StartupObject>
+    <StartupObject>Code_with_harry.Delegate</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,7 @@
     <Compile Include="Class_and_Objects.cs" />
     <Compile Include="Constructor.cs" />
     <Compile Include="create_calculator_application.cs" />
+    <Compile Include="Delegate.cs" />
     <Compile Include="Hotel_Mangment_System.cs" />
     <Compile Include="Library_Management_System.cs" />
     <Compile Include="tic_tac_toc.cs" />
