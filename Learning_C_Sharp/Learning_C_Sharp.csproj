@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Learning_C_Sharp.Delgate</StartupObject>
+    <StartupObject>ExpenseTracker.Expensive_mini_project</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -76,6 +76,7 @@
     <Compile Include="Exception_ex2.cs" />
     <Compile Include="Exception_handiling_ex3.cs" />
     <Compile Include="Exception_Handling_ex4.cs" />
+    <Compile Include="Expensive_mini_project.cs" />
     <Compile Include="file_handling.cs" />
     <Compile Include="File_handling_ex1.cs" />
     <Compile Include="File_Handling_Mini_Project.cs" />
