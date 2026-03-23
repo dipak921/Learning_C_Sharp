@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IssueTrackerPro.Simple_projectc</StartupObject>
+    <StartupObject>Learning_C_Sharp.Palindrome_Check</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=10.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -146,6 +146,7 @@
     <Compile Include="operator_overloading.cs" />
     <Compile Include="operator_with_user_input.cs" />
     <Compile Include="Function_overriding_Ex2.cs" />
+    <Compile Include="Palindrome_Check.cs" />
     <Compile Include="Payment_fucntion_overloading.cs" />
     <Compile Include="practice_question.cs" />
     <Compile Include="Program.cs" />
@@ -163,6 +164,7 @@
     <Compile Include="StarPattern.cs" />
     <Compile Include="Star_Printing.cs" />
     <Compile Include="Students.cs" />
+    <Compile Include="Swapping.cs" />
     <Compile Include="swap_two_number.cs" />
   </ItemGroup>
   <ItemGroup>
