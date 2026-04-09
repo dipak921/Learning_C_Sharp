@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Revision_start.Nested_For_Loop</StartupObject>
+    <StartupObject>Revision_start.Consturctor_Inheritance</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,10 +48,15 @@
   <ItemGroup>
     <Compile Include="Boxing_Unboxing.cs" />
     <Compile Include="Constant.cs" />
+    <Compile Include="Constructor.cs" />
+    <Compile Include="Constructor_Overloading.cs" />
+    <Compile Include="Consturctor_Inheritance.cs" />
     <Compile Include="Data_Type.cs" />
     <Compile Include="Desision_Making.cs" />
     <Compile Include="Do_While_Loop.cs" />
     <Compile Include="For_Loop.cs" />
+    <Compile Include="Function_OR_Method.cs" />
+    <Compile Include="Function_Second_Part.cs" />
     <Compile Include="If_Else_If.cs" />
     <Compile Include="Jump_Statements.cs" />
     <Compile Include="Nested_For_Loop.cs" />
