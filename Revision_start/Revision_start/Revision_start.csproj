@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Revision_start.Consturctor_Inheritance</StartupObject>
+    <StartupObject>Revision_start.Copy_Constructor</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="Constructor.cs" />
     <Compile Include="Constructor_Overloading.cs" />
     <Compile Include="Consturctor_Inheritance.cs" />
+    <Compile Include="Copy_Constructor.cs" />
     <Compile Include="Data_Type.cs" />
     <Compile Include="Desision_Making.cs" />
     <Compile Include="Do_While_Loop.cs" />
