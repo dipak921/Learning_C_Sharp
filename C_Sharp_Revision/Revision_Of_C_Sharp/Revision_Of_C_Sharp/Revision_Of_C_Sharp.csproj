@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CF522BEE-844B-4984-9F65-22459C82F194}</ProjectGuid>
+    <ProjectGuid>{7E842AC1-2538-494D-B2EC-54153ACF102E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Revision_start</RootNamespace>
-    <AssemblyName>Revision_start</AssemblyName>
+    <RootNamespace>Revision_Of_C_Sharp</RootNamespace>
+    <AssemblyName>Revision_Of_C_Sharp</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Revision_start.Copy_Constructor</StartupObject>
+    <StartupObject>Revision_Of_C_Sharp.MultiPull</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,35 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Boxing_Unboxing.cs" />
-    <Compile Include="Constant.cs" />
-    <Compile Include="Constructor.cs" />
-    <Compile Include="Constructor_Overloading.cs" />
-    <Compile Include="Consturctor_Inheritance.cs" />
-    <Compile Include="Copy_Constructor.cs" />
-    <Compile Include="Data_Type.cs" />
-    <Compile Include="Desision_Making.cs" />
-    <Compile Include="Do_While_Loop.cs" />
-    <Compile Include="For_Loop.cs" />
-    <Compile Include="Function_OR_Method.cs" />
-    <Compile Include="Function_Second_Part.cs" />
-    <Compile Include="If_Else_If.cs" />
-    <Compile Include="Jump_Statements.cs" />
-    <Compile Include="Nested_For_Loop.cs" />
-    <Compile Include="Nested_Switch_Case.cs" />
-    <Compile Include="Operation.cs" />
-    <Compile Include="Operator.cs" />
-    <Compile Include="PracticeApp.cs" />
-    <Compile Include="Precedence_Operator.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="MultiPull.cs" />
+    <Compile Include="MultiThread.cs" />
+    <Compile Include="ThreadProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Simple_Intrest.cs" />
-    <Compile Include="Student_MarkSheet_Application.cs" />
-    <Compile Include="SumDateDigit.cs" />
-    <Compile Include="Switch_Case.cs" />
-    <Compile Include="Ternary_Operatior.cs" />
-    <Compile Include="Variable.cs" />
-    <Compile Include="While_Loop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

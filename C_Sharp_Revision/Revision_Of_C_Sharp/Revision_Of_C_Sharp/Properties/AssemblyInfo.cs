@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Revision_start")]
+[assembly: AssemblyTitle("Revision_Of_C_Sharp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Revision_start")]
+[assembly: AssemblyProduct("Revision_Of_C_Sharp")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("cf522bee-844b-4984-9f65-22459c82f194")]
+[assembly: Guid("7e842ac1-2538-494d-b2ec-54153acf102e")]
 
 // Version information for an assembly consists of the following four values:
 //
